@@ -1,0 +1,137 @@
+body {
+
+    background-image: url(../../Assetes/fundo2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    } 
+
+  div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+img { 
+
+    width: 253px;
+    margin-top: 46px;
+    margin-bottom: 44px;}
+
+.seta2 {
+
+    width: 22px;
+    transform: rotatey(180deg);
+    margin-left: -129px;
+    }
+
+.lixeira {
+
+    width: 28px;
+    cursor: pointer;}
+
+section {
+
+    height: 100%;
+    min-height: calc(100vh - 170px);
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 61px 61px 0px 0px;
+    background: linear-gradient(
+    157.44deg,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.15));
+    padding: 50px 36px;
+    }
+
+h1 { 
+
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 39.84px;
+    color: white;}
+
+button { 
+
+    margin-top:53px;
+    width: 342px;
+    height: 69px;
+    background-color:transparent;  
+    border: solid 2px white; 
+    border-radius: 14px; 
+    color: white;
+    font-size: 19px;
+    cursor: pointer;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;}
+
+.cadast {
+
+    margin-top:53px;
+    width: 342px;
+    height: 69px;
+    background-color:transparent;  
+    border: solid 2px white; 
+    border-radius: 14px; 
+    color: white;
+    font-size: 19px;
+    cursor: pointer;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;}
+
+button:hover {
+
+    opacity: 0.8;}
+
+button:active {
+
+    opacity: 0.5;}
+
+li { 
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+   
+    width: 342px;
+    height: 58px;
+    background-color:rgba(255, 255, 255, 0.25) ;  
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 14px;  
+    border: none;
+    outline: none;
+    margin-top: 44px;
+    margin-bottom: -28px;
+    
+
+    
+    p {
+
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 28px;
+      color: black; 
+      margin-left: 15px;
+      margin-top: 10PX;
+      display: flex;
+      
+      }
+
+    button {
+
+        background-color: white;
+        width: 51px;
+        border: none;
+        height: 45px;
+        margin-top: 2px;
+        /* margin-left: -13px; */
+        background-color: transparent ;}}
